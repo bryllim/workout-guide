@@ -675,6 +675,11 @@ nav a:hover,
   font-size: 1rem;
 }
 
+.field-surface select,
+.field-surface select option {
+  color: var(--ink);
+  background-color: var(--surface);
+}
 .result-meta {
   min-height: 2rem;
   margin-block-end: 1.5rem;
