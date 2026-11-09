@@ -7,9 +7,9 @@ const projectRoot = resolve(dirname(new URL(import.meta.url).pathname), '..');
 const packageRoot = join(projectRoot, 'packages', 'workout-guide');
 const manifest = JSON.parse(await readFile(join(packageRoot, 'manifest.json'), 'utf8'));
 
-if (manifest.length !== 302) throw new Error(`Expected 302 exercises, found ${manifest.length}.`);
-if (new Set(manifest.map((item) => item.id)).size !== 302) throw new Error('Exercise IDs are not unique.');
-if (new Set(manifest.map((item) => item.slug)).size !== 302) throw new Error('Exercise slugs are not unique.');
+if (manifest.length !== 303) throw new Error(`Expected 303 exercises, found ${manifest.length}.`);
+if (new Set(manifest.map((item) => item.id)).size !== 303) throw new Error('Exercise IDs are not unique.');
+if (new Set(manifest.map((item) => item.slug)).size !== 303) throw new Error('Exercise slugs are not unique.');
 
 let frameCount = 0;
 let sourcedCount = 0;
@@ -33,8 +33,8 @@ for (const exercise of manifest) {
   }
 }
 
-if (frameCount !== 906) throw new Error(`Expected 906 frames, found ${frameCount}.`);
-if (sourcedCount !== 76) throw new Error(`Expected 76 Everkinetic attributions, found ${sourcedCount}.`);
-if (sourcedFrameCount !== 76) throw new Error(`Expected 76 sourced frame records, found ${sourcedFrameCount}.`);
+if (frameCount !== 909) throw new Error(`Expected 909 frames, found ${frameCount}.`);
+if (sourcedCount !== 77) throw new Error(`Expected 77 Everkinetic attributions, found ${sourcedCount}.`);
+if (sourcedFrameCount !== 77) throw new Error(`Expected 77 sourced frame records, found ${sourcedFrameCount}.`);
 
 console.log(`Validated ${manifest.length} exercises, ${frameCount} frames, and ${sourcedCount} sourced poses.`);

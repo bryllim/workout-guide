@@ -18,8 +18,8 @@ const files = await walk(dist);
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const failures = [];
 
-if (htmlFiles.length !== 305) {
-  failures.push(`Expected 305 HTML pages, found ${htmlFiles.length}.`);
+if (htmlFiles.length !== 306) {
+  failures.push(`Expected 306 HTML pages, found ${htmlFiles.length}.`);
 }
 
 for (const htmlFile of htmlFiles) {
