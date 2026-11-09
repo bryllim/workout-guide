@@ -19103,5 +19103,79 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
+  },
+  {
+    "id": "exercise-barbell-floor-press",
+    "slug": "barbell-floor-press",
+    "name": "Barbell Floor Press",
+    "exerciseType": "weight_reps",
+    "equipment": "Barbell",
+    "primaryMuscle": "Chest",
+    "secondaryMuscles": [
+      "Triceps",
+      "Shoulders"
+    ],
+    "isStretch": false,
+    "frames": [
+      {
+        "index": 1,
+        "path": "assets/barbell-floor-press/frame-1.svg",
+        "width": 512,
+        "height": 512,
+        "format": "svg",
+        "attribution": {
+          "creator": "Bryl Lim",
+          "creatorUrl": "https://bryllim.com",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source": {
+            "name": "Everkinetic",
+            "url": "https://github.com/everkinetic/data/blob/main/dist/svg/0042-tension.svg",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "changes": "Composite supine floor position with Olympic barbell press frames on a transparent 512 × 512 canvas and vector-traced."
+          }
+        }
+      },
+      {
+        "index": 2,
+        "path": "assets/barbell-floor-press/frame-2.svg",
+        "width": 512,
+        "height": 512,
+        "format": "svg",
+        "attribution": {
+          "creator": "Bryl Lim",
+          "creatorUrl": "https://bryllim.com",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      },
+      {
+        "index": 3,
+        "path": "assets/barbell-floor-press/frame-3.svg",
+        "width": 512,
+        "height": 512,
+        "format": "svg",
+        "attribution": {
+          "creator": "Bryl Lim",
+          "creatorUrl": "https://bryllim.com",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      }
+    ],
+    "attribution": {
+      "creator": "Bryl Lim",
+      "creatorUrl": "https://bryllim.com",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": {
+        "name": "Everkinetic",
+        "url": "https://github.com/everkinetic/data/blob/main/dist/svg/0042-tension.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "changes": "Composite supine floor position with Olympic barbell press frames on a transparent 512 × 512 canvas and vector-traced."
+      }
+    }
   }
 ]
